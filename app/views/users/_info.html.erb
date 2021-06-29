@@ -1,6 +1,6 @@
 <div class="col-xs-3">
   <h2>User info</h2>
-  <%= attachment_image_tag user, :profile_image, size: "100x100", fallback: "no_image-c7305210e2d30bf8f19461ca05a151bba6413a44a35124f673246160efefdc5e.jpg" %>
+  <%= attachment_image_tag user, :profile_image, size: "100x100", fallback: image_tag(asset_path("no_image.jpg")) %>
   <table class="table">
     <tbody>
       <tr></tr>
